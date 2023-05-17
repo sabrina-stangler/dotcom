@@ -4,19 +4,35 @@ This is a repo for my personal website, sabrinastangler.com. Built using create-
 
 # Steps to Replicate
 
+## create-react-app with typescript
+
 1. create repo in github
 2. clone repo locally
 3. cd into repo
 4. cra with typescript with same name as repo
 5. open finder, move all the new files created into the root repo folder & delete the now empty created folder
 6. make a .gitignore file in the root, add `/node_modules`
-  * nano .gitignore
-  * enter `/node_modules` in the file
-  * ctrl+o (write out)
-  * ctrl+x (exit)
 7. commit & push to main
 
-# Getting Started with Create React App
+## deploying via github pages w/ custom domain
+
+I haven't ironed out all the kinks here, but here's what I've got:
+
+1. in root, `npm install gh-pages --save-dev`
+1. in package.json, add homepage key for your custom domain
+  * `"homepage": "https://sabrinastangler.com",`
+1. in package.json, add predeploy & deploy scripts
+  * "predeploy": "npm run build",
+  * "deploy": "gh-pages -d build",
+1. add /build folder to .gitignore
+1. in root, add file `CNAME` with custom domain (ex: sabrinastangler.com)
+
+Remember to also
+
+* Change the title in /public/index.html away from React default
+* Change the content on App.tsx away from React default
+
+# (React Documentation) Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
