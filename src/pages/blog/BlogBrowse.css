@@ -1,0 +1,23 @@
+.blog-browse-list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .5rem;
+  padding: 2rem .5rem;
+}
+
+.blog-browse-post-link {
+  text-decoration: none;
+  text-transform: capitalize;
+  display: flex;
+  gap: 1rem;
+}
+
+.blog-browse-post-link-date {
+  font-family: 'Asap-Light';
+}
+
+.blog-browse-post-link-title {
+  text-decoration: underline;
+  text-decoration-color: var(--tertiary);
+}

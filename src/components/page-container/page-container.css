@@ -1,0 +1,30 @@
+.page-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: 600;
+  padding: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row wrap;
+  gap: .5rem;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  background-color: var(--secondary);
+  border-radius: 12rem;
+  padding: .5rem .75rem;
+  font-family: 'Asap-Medium';
+  height: fit-content;
+}
+
+.nav-link:link, .nav-link:visited, .nav-link:hover, .nav-link:active {
+  color: var(--light);
+}

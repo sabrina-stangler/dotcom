@@ -1,0 +1,52 @@
+.project-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .5rem;
+  background-color: var(--medium);
+  border-radius: 1rem;
+  padding: 1.25rem;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.project-content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .5rem;
+  text-align: left;
+  border-radius: 2rem;
+}
+
+.project-title {
+  font-family: 'Signika_Negative';
+  font-weight: 800;
+  text-transform: capitalize;
+  font-size: 18px;
+  color: var(--darkgrey);
+}
+
+.project-description {
+  text-overflow: wrap;
+  font-size: 16px;
+}
+
+.project-bullets {
+  font-family: 'Asap-Thin';
+  font-size: 14px;
+}
+
+.project-bullets-ul {
+  padding-left: 1rem;
+  margin: 0px;
+}
+
+.project-attrs {
+  align-self: flex-end;
+}
+
+.project-links {
+  display: flex;
+  flex-flow: row wrap;
+  gap: .5rem;
+  font-size: 14px;
+}

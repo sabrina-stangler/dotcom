@@ -1,0 +1,70 @@
+.profile-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.profile-row {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+}
+
+.profile-primary-photo-img {
+  height: 20rem;
+  border-radius: 50%;
+  border: 5px solid var(--tertiary);
+}
+
+.profile-info-container {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+/* profile info should wrap under the picture on small screens
+but we'll limit the width on larger screens to keep it from wrapping  */
+@media screen and (min-width: 800px) {
+  .profile-info-container {
+    width: 40%;
+  }
+}
+
+.profile-name {
+  font-family: 'Unbounded';
+  color: var(--secondary);
+  font-size: min(8vw, 36px);
+}
+
+.profile-tagline {
+  font-size: min(6vw, 24px);
+  color: var(--primary);
+}
+
+.profile-bio {
+  text-overflow: wrap;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: .75rem;
+}
+
+.profile-gallery-photo-img {
+  height: 10rem;
+}
+
+.profile-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  padding: .5rem;
+  border: 5px dashed var(--medium);
+}

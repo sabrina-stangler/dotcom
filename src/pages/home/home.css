@@ -1,0 +1,61 @@
+.curious-bean {
+  color: var(--primary);
+  font-family: 'Unbounded';
+}
+
+.email-link {
+  color: var(--primary);
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3rem 0 7rem;
+  gap: 5rem;
+}
+
+@media screen and (min-width: 1800px) {
+  .content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}
+
+.block {
+  color: var(--primary);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700;
+  font-size: larger;
+  background-color: var(--medium);
+  height: fit-content;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.service-container {
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10vi;
+  justify-content: space-evenly;
+  align-items: center;
+  /* border: 5px dashed var(--tertiary);
+  border-radius: 1rem; */
+}
+
+.service-description {
+  max-width: 30vw;
+}
+
+.service-image-pair {
+  display: flex;
+  gap: 1rem;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-service-image {
+  /* height: 150px; */
+}

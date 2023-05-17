@@ -1,0 +1,15 @@
+.blog-page-container {
+  padding-bottom: 5rem;
+}
+
+.blog-page-title-container {
+  
+}
+
+.blog-page-title {
+  text-transform: capitalize;
+}
+
+.blog-page-content-container {
+  text-align: left;
+}

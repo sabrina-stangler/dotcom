@@ -1,0 +1,34 @@
+@media screen and (min-width: 900px) {
+  .rm-section-container {
+    padding: 0 8rem;
+  }
+}
+@media screen and (max-width: 900px) {
+  .rm-section-container {
+    padding: 0 2rem;
+  }
+}
+
+.rm-iframe-container {
+  margin: 3rem 0;
+}
+
+.rm-iframe-header {
+  padding: .5rem 1rem;
+  color: var(--secondary);
+  font-family: 'Asap-Bold';
+  font-size: 32px;
+}
+
+.rm-font-roboto {
+  font-family: "Roboto";
+}
+.rm-font-roboto-condensed {
+  font-family: "Roboto Condensed";
+}
+.rm-font-syne {
+  font-family: "Syne";
+}
+.rm-font-archivo-black {
+  font-family: "Archivo Black";
+}

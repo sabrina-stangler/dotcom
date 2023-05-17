@@ -1,0 +1,64 @@
+.project-category-container {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+.project-category-header {
+  font-family: 'Unbounded';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: var(--secondary);
+  color: var(--white);
+  font-size: 18px;
+}
+
+.project-category-list {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  width: 100%;
+}
+
+/* Small screen behavior */
+@media screen and (max-width: 600px) {
+  .project-category-header {
+    width: 100%;
+    padding: .5rem 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  }
+
+  .project-category-container {
+    flex-flow: row wrap;
+  }
+
+  .project-category-list {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* Non-small screen behavior */
+@media screen and (min-width: 600px) {
+  .project-category-header {
+    width: 125px;
+    padding: 0 .5rem;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+  }
+
+  .project-category-container {
+    flex-flow: row nowrap;
+  }
+}
+
+/* Control whether the projects can fill two columns */
+@media screen and (min-width: 1200px) {
+  .project-category-list > div {
+    max-width: 400px;
+  }
+}
