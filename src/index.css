@@ -5,6 +5,12 @@
 }
 
 @font-face {
+  font-family: "Anybody_SemiExpanded";
+  src: url("./assets/fonts/Anybody/static/Anybody_SemiExpanded-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
   font-family: "Salsa";
   src: url("./assets/fonts/Salsa/Salsa-Regular.ttf") format("truetype");
   font-weight: 400;
@@ -69,7 +75,7 @@
    url("./assets/fonts/Asap/Asap-Italic-VariableFont_wdth,wght.ttf") format("truetype");
 }
 
-/* primary punch 2.1 */
+/* planty 2 */
 :root {
   --primary: #00A878;
   --secondary: #9F9FED;
@@ -77,19 +83,15 @@
   --quadrary: #224431;
   --white: #FEFCEC;
   --light: #D8F1A0;
-  /* --medium: #F3C178; */
-  /* --lightgrey: #C1666B;
-  --mediumgrey: #AE474C; */
   --darkgrey: #29513B;
   --dark: #224431;
   --titleFont: "Salsa";
-  --titleFontSecondary: "Anybody";
+  --titleFontSecondary: "Anybody_SemiExpanded";
   --bodyFont: "Asap-Light";
   --bodyFontMedium: "Asap-Medium";
   --bodyFontBold: "Asap-Bold";
   --bodyFontLight: "Asap-Thin";
 }
-/* C1CFA0 */
 
 html, body {
   height: 100%;
