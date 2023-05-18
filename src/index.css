@@ -1,25 +1,18 @@
 @font-face {
-  font-family: "Unbounded";
-  src: url("./assets/fonts/Unbounded/Unbounded-VariableFont_wght.ttf") format("truetype");
+  font-family: "Anybody";
+  src: url("./assets/fonts/Anybody/Anybody-VariableFont_wdth\,wght.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
-  font-family: "Signika_Negative";
-  src: url("./assets/fonts/Signika_Negative/SignikaNegative-VariableFont_wght.ttf") format("truetype");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Chivo";
-  src: url("./assets/fonts/Chivo/Chivo-VariableFont_wght.ttf") format("truetype");
+  font-family: "Salsa";
+  src: url("./assets/fonts/Salsa/Salsa-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Asap";
   src: url("./assets/fonts/Asap/Asap-VariableFont_wdth\,wght.ttf") format("truetype");
-  /* font-weight: 100; */
 }
 
 @font-face {
@@ -89,6 +82,12 @@
   --mediumgrey: #AE474C; */
   --darkgrey: #29513B;
   --dark: #224431;
+  --titleFont: "Salsa";
+  --titleFontSecondary: "Anybody";
+  --bodyFont: "Asap-Light";
+  --bodyFontMedium: "Asap-Medium";
+  --bodyFontBold: "Asap-Bold";
+  --bodyFontLight: "Asap-Thin";
 }
 /* C1CFA0 */
 
@@ -100,7 +99,7 @@ html, body {
 
 body {
   margin: 0;
-  font-family: 'Asap-Light', sans-serif;
+  font-family: var(--bodyFont), sans-serif;
   color: var(--dark);
   /* -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
@@ -112,11 +111,11 @@ code {
 }
 
 button {
-  font-family: 'Asap-Medium', sans-serif;
+  font-family: var(--bodyFontMedium), sans-serif;
 }
 
 a:link, a:visited, a:hover, a:active {
-  font-family: 'Asap-Medium';
+  font-family: var(--bodyFontMedium);
   color: var(--darkgrey);
   text-decoration-color: var(--tertiary);  
 }

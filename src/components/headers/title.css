@@ -6,7 +6,7 @@
 }
 
 .title {
-  font-family: 'Unbounded';
+  font-family: var(--titleFont);
   font-size: min(6vi, 72px);
   color: var(--primary);
 }

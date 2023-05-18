@@ -6,7 +6,7 @@
 }
 
 .project-category-header {
-  font-family: 'Unbounded';
+  font-family: var(--titleFont);
   display: flex;
   justify-content: center;
   align-items: center;

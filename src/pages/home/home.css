@@ -1,6 +1,6 @@
 .curious-bean {
   color: var(--primary);
-  font-family: 'Unbounded';
+  font-family: var(--titleFont);
 }
 
 .email-link {

@@ -14,7 +14,7 @@
 }
 
 .blog-browse-post-link-date {
-  font-family: 'Asap-Light';
+  font-family: var(--bodyFont);
 }
 
 .blog-browse-post-link-title {

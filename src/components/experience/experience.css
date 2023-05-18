@@ -24,7 +24,7 @@
 }
 
 .expand-details-button {
-  font-family: 'Asap-Light';
+  font-family: var(--bodyFont);
   padding-top: .5rem;
   border: 0;
   background-color: transparent;

@@ -18,7 +18,7 @@
 }
 
 .project-title {
-  font-family: 'Signika_Negative';
+  font-family: var(--titleFontSecondary);
   font-weight: 800;
   text-transform: capitalize;
   font-size: 18px;
@@ -31,7 +31,7 @@
 }
 
 .project-bullets {
-  font-family: 'Asap-Thin';
+  font-family: var(--bodyFontLight);
   font-size: 14px;
 }
 

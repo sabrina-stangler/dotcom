@@ -21,10 +21,10 @@
   background-color: var(--secondary);
   border-radius: 12rem;
   padding: .5rem .75rem;
-  font-family: 'Asap-Medium';
   height: fit-content;
 }
 
 .nav-link:link, .nav-link:visited, .nav-link:hover, .nav-link:active {
+  font-family: var(--titleFontSecondary);
   color: var(--white);
 }

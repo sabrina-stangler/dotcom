@@ -1,7 +1,7 @@
 .h1 {
   color: var(--primary);
   font-size: min(10vw, 48px);
-  font-family: 'Unbounded';
+  font-family: var(--titleFont);
   font-weight: 600;
 }
 
