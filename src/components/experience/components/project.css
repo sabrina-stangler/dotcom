@@ -2,7 +2,7 @@
   display: flex;
   flex-flow: column nowrap;
   gap: .5rem;
-  background-color: var(--medium);
+  background-color: var(--light);
   border-radius: 1rem;
   padding: 1.25rem;
   width: 100%;

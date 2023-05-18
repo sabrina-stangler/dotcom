@@ -78,22 +78,24 @@
 
 /* primary punch 2.1 */
 :root {
-  --primary: #1b998b;
-  --secondary: #ff715b;
-  --tertiary: #bad7f2;
-  --white: #FEFEF9;
-  --light: #FEFEF9;
-  --medium: #f8f4a6;
-  --lightgrey: #D1E5F0;
-  --mediumgrey: #5EA4CC;
-  --darkgrey: #2B6587;
-  --dark: #153243;
+  --primary: #00A878;
+  --secondary: #9F9FED;
+  --tertiary: #F3C178;
+  --quadrary: #224431;
+  --white: #FEFCEC;
+  --light: #D8F1A0;
+  /* --medium: #F3C178; */
+  /* --lightgrey: #C1666B;
+  --mediumgrey: #AE474C; */
+  --darkgrey: #29513B;
+  --dark: #224431;
 }
+/* C1CFA0 */
 
 html, body {
   height: 100%;
   width: 100%;
-  background-color: var(--light);
+  background-color: var(--white);
 }
 
 body {

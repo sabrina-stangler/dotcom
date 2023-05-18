@@ -26,5 +26,5 @@
 }
 
 .nav-link:link, .nav-link:visited, .nav-link:hover, .nav-link:active {
-  color: var(--light);
+  color: var(--white);
 }

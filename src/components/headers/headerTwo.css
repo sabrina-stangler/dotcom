@@ -1,0 +1,5 @@
+.h2 {
+  font-family: 'Unbounded';
+  color: var(--secondary);
+  font-size: min(8vw, 36px);
+}

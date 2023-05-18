@@ -36,12 +36,6 @@ but we'll limit the width on larger screens to keep it from wrapping  */
   }
 }
 
-.profile-name {
-  font-family: 'Unbounded';
-  color: var(--secondary);
-  font-size: min(8vw, 36px);
-}
-
 .profile-tagline {
   font-size: min(6vw, 24px);
   color: var(--primary);
@@ -52,19 +46,4 @@ but we'll limit the width on larger screens to keep it from wrapping  */
   display: flex;
   flex-flow: column nowrap;
   gap: .75rem;
-}
-
-.profile-gallery-photo-img {
-  height: 10rem;
-}
-
-.profile-gallery {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  gap: 1rem;
-  padding: .5rem;
-  border: 5px dashed var(--medium);
 }

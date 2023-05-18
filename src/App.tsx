@@ -4,7 +4,7 @@ import './App.css';
 import { useCallback, useState } from 'react';
 import { ExperienceContext } from './contexts/useExperience';
 import { Routes, Route } from 'react-router-dom';
-import { About, BlogBrowse, BlogPage, Clients, Home, RadioMilwaukee } from './pages';
+import { About, BlogBrowse, BlogPage, HireMe, Home } from './pages';
 
 function App() {
   const [showDetails, setShowDetails] = useState<boolean>(true)
@@ -22,9 +22,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<BlogBrowse />} />
         <Route path="/blog/:fileName" element={<BlogPage />} />
-        <Route path="/clients" element={<Clients />} />
-        <Route path="/clients/radio-milwaukee" element={<RadioMilwaukee />} />
         <Route path="/about" element={<About />} />
+        <Route path="/hire-me" element={<HireMe />} />
       </Routes>
     </ExperienceContext.Provider>
   );

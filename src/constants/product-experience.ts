@@ -99,9 +99,9 @@ const rc: Organization = {
   projects: [
     rc_lmi,
     rc_website,
-    // rc_velocity,
+    rc_velocity,
     rc_quadjobs,
-    // rc_lpi
+    rc_lpi
   ]
 }
 
@@ -180,7 +180,7 @@ const unsorted_orgs: Organization[] = [
   rc,
   mgp,
   cv,
-  // cb
+  cb
 ]
 const productExperience: Organization[] = unsorted_orgs.sort((a,b) => a.startDate.getTime() >= b.startDate.getTime() ? -1 : 1)
 
