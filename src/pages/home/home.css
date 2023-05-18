@@ -1,0 +1,22 @@
+.curious-bean {
+  color: var(--primary);
+  font-family: var(--titleFont);
+}
+
+.email-link {
+  color: var(--primary);
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3rem 0 7rem;
+  gap: 5rem;
+}
+
+@media screen and (min-width: 1800px) {
+  .content {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+}

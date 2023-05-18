@@ -1,0 +1,21 @@
+.about-container {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 3rem 0;
+  gap: 3rem;
+}
+
+.about-gallery-photo-img {
+  height: 15rem;
+}
+
+.about-gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+  padding: .5rem;
+  border: 5px dashed var(--light);
+}

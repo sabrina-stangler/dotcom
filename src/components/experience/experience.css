@@ -1,0 +1,68 @@
+.experience-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-tabs {
+}
+
+.experience-tab {
+  font-size: 24px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  color: var(--darkgrey);
+  padding: .5rem 1rem;
+  cursor: pointer;
+}
+
+.selected-experience-tab {
+  text-decoration-line: overline;
+  text-decoration-style: wavy;
+  text-decoration-color: var(--tertiary);
+}
+
+.expand-details-button {
+  font-family: var(--bodyFont);
+  padding-top: .5rem;
+  border: 0;
+  background-color: transparent;
+  color: var(--dark);
+  cursor: pointer;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  gap: 2rem;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.year-label {
+  padding-left: .5rem;
+}
+
+.company-container {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  align-items: flex-start;
+  padding: 1rem;
+  width: 100%;
+}
+
+.company-label {
+  margin: 0px;
+  color: var(--primary);
+}
+
+.company-project-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  width: 100%;
+}

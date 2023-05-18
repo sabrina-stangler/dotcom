@@ -26,6 +26,14 @@ I haven't ironed out all the kinks here, but here's what I've got:
   * "deploy": "gh-pages -d build",
 1. add /build folder to .gitignore
 1. in root, add file `CNAME` with custom domain (ex: sabrinastangler.com)
+1. in root, add empty file `.nojekyll` so Github Pages doesn't think you're using it
+
+wherever you are managing your domain (i.e. domains.google.com, namecheap.com, etc.)
+
+[gh pages documentation](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-a-subdomain)
+
+1. 
+// TODO
 
 Remember to also
 

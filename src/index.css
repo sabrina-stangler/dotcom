@@ -1,13 +1,123 @@
+@font-face {
+  font-family: "Anybody";
+  src: url("./assets/fonts/Anybody/Anybody-VariableFont_wdth\,wght.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Anybody_SemiExpanded";
+  src: url("./assets/fonts/Anybody/static/Anybody_SemiExpanded-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Salsa";
+  src: url("./assets/fonts/Salsa/Salsa-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Asap";
+  src: url("./assets/fonts/Asap/Asap-VariableFont_wdth\,wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Asap-Thin";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "Asap-ExtraLight";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Asap-Light";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Asap-Medium";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Asap-Semibold";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Asap-Bold";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-Bold.ttf") format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Asap-ExtraBold";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Asap-Black";
+  src: url("./assets/fonts/Asap/static/Asap/Asap-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Asap_Italic";
+  src: local("Asap"),
+   url("./assets/fonts/Asap/Asap-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+}
+
+/* planty 2 */
+:root {
+  --primary: #00A878;
+  --secondary: #9F9FED;
+  --tertiary: #F3C178;
+  --quadrary: #224431;
+  --white: #FEFCEC;
+  --light: #D8F1A0;
+  --darkgrey: #29513B;
+  --dark: #224431;
+  --titleFont: "Salsa";
+  --titleFontSecondary: "Anybody_SemiExpanded";
+  --bodyFont: "Asap-Light";
+  --bodyFontMedium: "Asap-Medium";
+  --bodyFontBold: "Asap-Bold";
+  --bodyFontLight: "Asap-Thin";
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: var(--white);
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: var(--bodyFont), sans-serif;
+  color: var(--dark);
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  font-family: var(--bodyFontMedium), sans-serif;
+}
+
+a:link, a:visited, a:hover, a:active {
+  font-family: var(--bodyFontMedium);
+  color: var(--darkgrey);
+  text-decoration-color: var(--tertiary);  
 }
